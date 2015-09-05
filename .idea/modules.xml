@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Controls.iml" filepath="$PROJECT_DIR$/Controls.iml" />
-      <module fileurl="file://$PROJECT_DIR$/QQ特效/QQ特效.iml" filepath="$PROJECT_DIR$/QQ特效/QQ特效.iml" />
       <module fileurl="file://$PROJECT_DIR$/下拉刷新/下拉刷新.iml" filepath="$PROJECT_DIR$/下拉刷新/下拉刷新.iml" />
       <module fileurl="file://$PROJECT_DIR$/下拉选择/下拉选择.iml" filepath="$PROJECT_DIR$/下拉选择/下拉选择.iml" />
       <module fileurl="file://$PROJECT_DIR$/优酷菜单/优酷菜单.iml" filepath="$PROJECT_DIR$/优酷菜单/优酷菜单.iml" />

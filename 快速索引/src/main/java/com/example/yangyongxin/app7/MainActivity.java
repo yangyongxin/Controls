@@ -1,8 +1,5 @@
 package com.example.yangyongxin.app7;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,22 +10,39 @@ import android.widget.TextView;
 
 import com.example.yangyongxin.app7.adapter.HaoHanAdapter;
 import com.example.yangyongxin.app7.bean.Person;
-import com.example.yangyongxin.app7.ui.QuickIndexBar;
-import com.example.yangyongxin.app7.ui.QuickIndexBar.OnLetterUpdateListener;
+import com.example.yangyongxin.app7.view.QuickIndexBar;
+import com.example.yangyongxin.app7.view.QuickIndexBar.OnLetterUpdateListener;
 import com.example.yangyongxin.app7.util.Cheeses;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class MainActivity extends Activity {
 
     private ListView mMainList;
-    private ArrayList<Person> persons;
     private TextView tv_center;
+    private List<Person> persons;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mMainList = (ListView) findViewById(R.id.lv_main);
+        tv_center = (TextView) findViewById(R.id.tv_center);
         QuickIndexBar bar = (QuickIndexBar) findViewById(R.id.bar);
+
+        persons = new ArrayList<Person>();
+        for (int i = 0; i < Cheeses.NAMES.length; i++) {
+            String name = Cheeses.NAMES[i];
+            persons.add(new Person(name));
+        }
+        // 进行排序
+        Collections.sort(persons);
+        HaoHanAdapter adapter = new HaoHanAdapter(this, persons);
+        mMainList.setAdapter(adapter);
+
         // 设置监听
         bar.setListener(new OnLetterUpdateListener() {
             @Override
@@ -48,23 +62,9 @@ public class MainActivity extends Activity {
                 }
             }
         });
-
-        mMainList = (ListView) findViewById(R.id.lv_main);
-
-        persons = new ArrayList<Person>();
-
-        // 填充数据 , 排序
-        fillAndSortData(persons);
-
-        mMainList.setAdapter(new HaoHanAdapter(MainActivity.this, persons));
-
-        tv_center = (TextView) findViewById(R.id.tv_center);
-
-
     }
 
     private Handler mHandler = new Handler();
-
     /**
      * 显示字母
      *
@@ -84,14 +84,4 @@ public class MainActivity extends Activity {
 
     }
 
-    private void fillAndSortData(ArrayList<Person> persons) {
-        // 填充数据
-        for (int i = 0; i < Cheeses.NAMES.length; i++) {
-            String name = Cheeses.NAMES[i];
-            persons.add(new Person(name));
-        }
-
-        // 进行排序
-        Collections.sort(persons);
-    }
 }

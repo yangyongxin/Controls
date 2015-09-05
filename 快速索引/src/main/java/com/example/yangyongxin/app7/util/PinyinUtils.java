@@ -11,9 +11,6 @@ public class PinyinUtils {
 
     /**
      * 根据传入的字符串(包含汉字),得到拼音
-     * 黑马 -> HEIMA
-     * 黑  马*& -> HEIMA
-     * 黑马f5 -> HEIMA
      *
      * @param str 字符串
      * @return

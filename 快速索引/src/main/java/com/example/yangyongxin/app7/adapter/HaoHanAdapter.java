@@ -10,21 +10,20 @@ import android.widget.TextView;
 import com.example.yangyongxin.app7.R;
 import com.example.yangyongxin.app7.bean.Person;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class HaoHanAdapter extends BaseAdapter {
 
     private Context mContext;
-    private ArrayList<Person> persons;
+    private List<Person> persons;
 
-    public HaoHanAdapter(Context mContext, ArrayList<Person> persons) {
+    public HaoHanAdapter(Context mContext, List<Person> persons) {
         this.mContext = mContext;
         this.persons = persons;
     }
 
     @Override
     public int getCount() {
-        // TODO Auto-generated method stub
         return persons.size();
     }
 
@@ -48,7 +47,6 @@ public class HaoHanAdapter extends BaseAdapter {
         ViewHolder mViewHolder = ViewHolder.getHolder(view);
 
         Person p = persons.get(position);
-
         String str = null;
         String currentLetter = p.getPinyin().charAt(0) + "";
         // 根据上一个首字母,决定当前是否显示字母
@@ -61,7 +59,6 @@ public class HaoHanAdapter extends BaseAdapter {
                 str = currentLetter;
             }
         }
-
         // 根据str是否为空,决定是否显示索引栏
         mViewHolder.mIndex.setVisibility(str == null ? View.GONE : View.VISIBLE);
         mViewHolder.mIndex.setText(currentLetter);
@@ -75,16 +72,14 @@ public class HaoHanAdapter extends BaseAdapter {
         TextView mName;
 
         public static ViewHolder getHolder(View view) {
-            Object tag = view.getTag();
-            if (tag != null) {
-                return (ViewHolder) tag;
-            } else {
-                ViewHolder viewHolder = new ViewHolder();
+            ViewHolder viewHolder = (ViewHolder) view.getTag();
+            if (viewHolder == null) {
+                viewHolder = new ViewHolder();
                 viewHolder.mIndex = (TextView) view.findViewById(R.id.tv_index);
                 viewHolder.mName = (TextView) view.findViewById(R.id.tv_name);
                 view.setTag(viewHolder);
-                return viewHolder;
             }
+            return viewHolder;
         }
 
     }
