@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"></ListView>
 
-    <com.example.yangyongxin.app7.view.QuickIndexBar
+    <com.yyx.view7.view.QuickIndexBar
         android:id="@+id/bar"
         android:layout_width="30dp"
         android:layout_height="match_parent"

@@ -1,4 +1,4 @@
-<com.example.yangyongxin.app6.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.yyx.view6.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/dl"
@@ -24,7 +24,7 @@
             android:layout_height="match_parent"></ListView>
     </LinearLayout>
 
-    <com.example.yangyongxin.app6.view.MyLinearLayout
+    <com.yyx.view6.view.MyLinearLayout
         android:id="@+id/mll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -55,5 +55,5 @@
             android:id="@+id/lv_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"></ListView>
-    </com.example.yangyongxin.app6.view.MyLinearLayout>
-</com.example.yangyongxin.app6.view.DragLayout>
+    </com.yyx.view6.view.MyLinearLayout>
+</com.yyx.view6.view.DragLayout>

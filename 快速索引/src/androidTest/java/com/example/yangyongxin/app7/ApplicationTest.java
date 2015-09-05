@@ -1,4 +1,4 @@
-package com.example.yangyongxin.app7;
+package com.yyx.view7;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
