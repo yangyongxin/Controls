@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2">
+
+    <item
+        jar="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false" revision="22.0.1" sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex
+            dex="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/pre-dexed/debug/classes-25719d4d8317909b5eda4c7ad036e94265d1d449.jar" />
+    </item>
+    <item
+        jar="/Users/yangyongxin/local/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false" revision="22.0.1" sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex
+            dex="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a60f73dab1d89599c508449fbae30748b1c51501.jar" />
+    </item>
+    <item jar="/Users/yangyongxin/android/projects/Controls/快速索引/libs/pinyin4j-2.5.0.jar"
+        jumboMode="false" revision="22.0.1" sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex
+            dex="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/pre-dexed/debug/pinyin4j-2.5.0-3ffd3972c1009a5d8df200934fd1cf91c200e8bf.jar" />
+    </item>
+    <item
+        jar="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false" revision="22.0.1" sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex
+            dex="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e78213a1d97959646240fb999fb52245ff76ae38.jar" />
+    </item>
+    <item
+        jar="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false" revision="22.0.1" sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex
+            dex="/Users/yangyongxin/android/projects/Controls/快速索引/build/intermediates/pre-dexed/debug/classes-795a54df5c959865821d2da7e0f8c171dbbad80f.jar" />
+    </item>
+
+</items>

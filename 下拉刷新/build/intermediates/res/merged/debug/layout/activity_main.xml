@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.yangyongxin.app4.view.RefreshListView
+        android:id="@+id/refreshListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/res/layout/activity_main.xml -->
