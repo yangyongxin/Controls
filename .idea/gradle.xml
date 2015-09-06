@@ -10,12 +10,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/下拉刷新" />
+            <option value="$PROJECT_DIR$/下拉选择" />
             <option value="$PROJECT_DIR$/优酷菜单" />
             <option value="$PROJECT_DIR$/侧滑菜单" />
             <option value="$PROJECT_DIR$/侧滑面板" />
             <option value="$PROJECT_DIR$/大图轮播" />
             <option value="$PROJECT_DIR$/快速索引" />
-            <option value="$PROJECT_DIR$/视差特效" />
             <option value="$PROJECT_DIR$/验证码" />
           </set>
         </option>

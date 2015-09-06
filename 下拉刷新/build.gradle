@@ -5,7 +5,7 @@ android {
     buildToolsVersion '22.0.1'
 
     defaultConfig {
-        applicationId "com.yyx.view4"
+        applicationId "com.example.yangyongxin.app4"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.yyx.view4.view.RefreshListView
+    <com.example.yangyongxin.app4.view.RefreshListView
         android:id="@+id/refreshListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

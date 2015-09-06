@@ -2,7 +2,7 @@
 manifest
 ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:3:5-28
+		ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml
 		INJECTED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml
 	android:versionName
@@ -25,7 +25,7 @@ MERGED from [com.android.support:support-v4:22.0.0] /Users/yangyongxin/android/p
 		ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:9:9-40
-activity#com.yyx.view4.MainActivity
+activity#com.example.yangyongxin.app4.MainActivity
 ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:10:9-18:20
 	android:label
 		ADDED from /Users/yangyongxin/android/projects/Controls/下拉刷新/src/main/AndroidManifest.xml:12:13-45

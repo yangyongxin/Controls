@@ -4,12 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Controls.iml" filepath="$PROJECT_DIR$/Controls.iml" />
       <module fileurl="file://$PROJECT_DIR$/下拉刷新/下拉刷新.iml" filepath="$PROJECT_DIR$/下拉刷新/下拉刷新.iml" />
+      <module fileurl="file://$PROJECT_DIR$/下拉选择/下拉选择.iml" filepath="$PROJECT_DIR$/下拉选择/下拉选择.iml" />
       <module fileurl="file://$PROJECT_DIR$/优酷菜单/优酷菜单.iml" filepath="$PROJECT_DIR$/优酷菜单/优酷菜单.iml" />
       <module fileurl="file://$PROJECT_DIR$/侧滑菜单/侧滑菜单.iml" filepath="$PROJECT_DIR$/侧滑菜单/侧滑菜单.iml" />
       <module fileurl="file://$PROJECT_DIR$/侧滑面板/侧滑面板.iml" filepath="$PROJECT_DIR$/侧滑面板/侧滑面板.iml" />
       <module fileurl="file://$PROJECT_DIR$/大图轮播/大图轮播.iml" filepath="$PROJECT_DIR$/大图轮播/大图轮播.iml" />
       <module fileurl="file://$PROJECT_DIR$/快速索引/快速索引.iml" filepath="$PROJECT_DIR$/快速索引/快速索引.iml" />
-      <module fileurl="file://$PROJECT_DIR$/视差特效/视差特效.iml" filepath="$PROJECT_DIR$/视差特效/视差特效.iml" />
       <module fileurl="file://$PROJECT_DIR$/验证码/验证码.iml" filepath="$PROJECT_DIR$/验证码/验证码.iml" />
     </modules>
   </component>

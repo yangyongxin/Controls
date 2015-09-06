@@ -1,4 +1,4 @@
-package com.yyx.view5;
+package com.example.yangyongxin.app5;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
